@@ -3,11 +3,12 @@ katz_deli = [];
 
 def line(array)
   current = [];
+  counter = 0;
   if array.length == 0
     puts "The line is currently empty."
 else 
   array.each do |name|
-    current.push("#{name}")
+    current.push("#{counter+1}. #{name} ")
   end
  puts "The line is currently: #{current.join(" ")}"
 end
