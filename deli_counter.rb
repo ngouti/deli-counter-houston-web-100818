@@ -25,6 +25,6 @@ end
     if array.length == 0 # or if array.empty?
       puts "There is nobody waiting to be served!"
     else
-      puts "Currently serving: #{array.shift()}"
+      puts "Currently serving #{array.shift()}."
     end
   end
