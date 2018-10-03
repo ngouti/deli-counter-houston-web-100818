@@ -18,6 +18,6 @@ end
 
 def take_a_number(array, name)
   array << name;
-  
+  puts "Hi, #{name}, you're number #{array.length}"
 end
   
