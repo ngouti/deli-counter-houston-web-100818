@@ -25,6 +25,6 @@ end
     if array.length == 0 # or if array.empty?
       puts "The line is currently empty."
     else
-      puts "Now swering: #{array.shift()}
+      puts "Now serving: #{array.shift()}"
     
   end
