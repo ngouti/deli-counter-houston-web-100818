@@ -26,5 +26,5 @@ end
       puts "The line is currently empty."
     else
       puts "Now serving: #{array.shift()}"
-    
+    end
   end
